@@ -52,7 +52,7 @@ void place_point() {
           if (jour == 1) { periodeJour = "Température par heures pour demain"; }
           if (jour == 2) { periodeJour = "Température par heures dans 2 jours"; }
           if (jour == 3) { periodeJour = "Température par heures dans 3 jours"; }
-               
+// Pour placer " Periode jour au bas de l'ecran "si les temperatures sont > 0               
           if (tempDatas[jour][heures] < tempTitreMin) { tempTitreMin = tempDatas[jour][heures]; }
           if (tempTitreMin > 0) {
               u8f.setFont(u8g2_font_helvR18_tf);
