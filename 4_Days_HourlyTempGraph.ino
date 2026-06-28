@@ -13,8 +13,8 @@ TFT_eSPI tft = TFT_eSPI();                  // tft instance
                U8g2_for_TFT_eSPI u8f;       // U8g2 font instance
 #define     TFT_LED 33
 
-const char* ssid = "Bbox-E295749E-2,4GHz";
-const char* password = "Mb&2427242711";
+const char* ssid = "SSID";
+const char* password = "PASS";
                      
       int jour, heures, place, newPlace;
    String tempHeuresTXT, periodeJour;
