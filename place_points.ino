@@ -35,7 +35,7 @@ void place_point() {
               u8f.setForegroundColor(TFT_BLUE); 
               tft.fillCircle(place, (200 - (tempDatas[jour][heures] * 4.5)), 2, TFT_BLUE);
              }   
-          if (tempDatas[jour][heures] <= 15) {
+          if (tempDatas[jour][heures] <= -15) {
               u8f.setForegroundColor(TFT_NAVY); 
               tft.fillCircle(place, (200 - (tempDatas[jour][heures] * 4.5)), 2, TFT_NAVY);
              }   
